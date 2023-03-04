@@ -20,7 +20,13 @@ public static void main(String[] args) {
 	System.out.println("você digitou:  " + numero);
 	
 	scanner.close();
-	
+	//Entrada de numero
+		int numero2;
+		System.out.println("Digite aqui o numero em seguida ENTER: ");
+		numero= scanner.nextInt();
+		System.out.println("você digitou:  " + numero);
+		
+		scanner.close();
 	
 	
 }
